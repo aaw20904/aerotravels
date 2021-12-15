@@ -1,0 +1,21 @@
+.bg-primary{
+    background-color: #FFDEAD !important;
+}
+
+.link-primary {
+    color:#800000;
+}
+
+.link-primary:hover {
+ color:white;
+ background-color:#FF4500;
+ transition: background-color 0.5s;
+}
+
+.border-success{
+    border-color:#FFAC80 !important;
+}
+
+/*.link-primary:visited{
+    color:#800000;
+}*/

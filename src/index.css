@@ -1,0 +1,199 @@
+.top-section-wrapper {
+    filter: brightness(1.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr;
+    background-image: url('title-600.jpg');
+    background-size: cover;
+}
+
+.title-first-item {
+  justify-content:space-between;
+}
+
+.mobile-nav-menu {
+  
+  display: block;
+}
+
+.mobile-nav-menu ul{
+  width:100%;
+}
+
+.mobile-nav-menu a{
+ width:80%;
+}
+
+.mobile-nav-menu li{
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+  /* lobster-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/lobster-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/lobster-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/lobster-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/lobster-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/lobster-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/lobster-v23-latin_cyrillic-regular.svg#Lobster') format('svg'); /* Legacy iOS */
+  }
+  
+  /* comfortaa-regular - latin */
+  /* comfortaa-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/comfortaa-v34-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/comfortaa-v34-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/comfortaa-v34-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/comfortaa-v34-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/comfortaa-v34-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/comfortaa-v34-latin_cyrillic-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/raleway-v22-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/raleway-v22-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/raleway-v22-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v22-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v22-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/raleway-v22-latin_cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  
+  .my-font-lobster{
+    font-family: "Lobster";
+  }
+  
+  .my-font-comfortaa{
+    font-family: "Comfortaa";
+  }
+  
+  .my-font-raleway{
+    font-family: "Raleway";
+  }
+  
+   .text-responsive_ {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+  
+
+
+  
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen  and (max-width : 480px) {
+ 
+  
+    .desktop-menu{
+      display:none;
+    }
+
+     .top-section-wrapper{
+       background-image:url("title-300.jpg");
+       height:70vw;
+     }
+  
+     .title-first-item{
+        justify-content:center;
+     }
+
+     .title-first-item :nth-child(odd){
+        display:none;
+     }
+
+    
+    
+   
+  /* Styles */
+  }
+  
+  
+  @media only screen and (min-width : 480px) and (max-width : 768px) {
+  
+  
+    .desktop-menu{
+        display:none;
+      }
+      
+     .top-section-wrapper{
+       height:auto;
+       background-image:url("title-600.jpg");
+     }
+  
+     .title-first-item{
+       justify-content:center;
+     }
+
+     .title-first-item :nth-child(odd){
+       display:none;
+     }
+
+  
+  /* Styles */
+  }
+  
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    /* Styles */
+    
+    .mobile-nav-menu{
+      display:none;
+     }
+  
+     .top-section-wrapper {
+     background-image:url("title-1024.jpg");
+      height:80vh;
+    }
+  
+  }
+  
+   
+  
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width : 1024px) and  (max-width : 1280px) {
+   
+  
+    .top-section-wrapper { 
+      background-image:url("title-1024.jpg");
+      height:80vh;
+    }
+    
+   
+  
+     .mobile-nav-menu{
+      display:none;
+     }
+     
+  /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen and (min-width : 1280px) {
+  
+ 
+    .top-section-wrapper{
+     background-image:url("title-1350.jpg"); 
+      height:80vh;
+    }
+    
+ 
+     .mobile-nav-menu{
+      display:none;
+     }
+     
+  /* Styles */
+  }
