@@ -1,0 +1,59 @@
+  /* lobster-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lobster-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/lobster-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lobster-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/lobster-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lobster-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/lobster-v23-latin_cyrillic-regular.svg#Lobster') format('svg'); /* Legacy iOS */
+  }
+  
+  /* comfortaa-regular - latin */
+  /* comfortaa-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comfortaa-v34-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/comfortaa-v34-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/comfortaa-v34-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/comfortaa-v34-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/comfortaa-v34-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/comfortaa-v34-latin_cyrillic-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  
+  /* raleway-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v22-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v22-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v22-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v22-latin_cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  
+  
+  .my-font-lobster{
+    font-family: "Lobster";
+  }
+  
+  .my-font-comfortaa{
+    font-family: "Comfortaa";
+  }
+  
+  .my-font-raleway{
+    font-family: "Raleway";
+  }
+  
+   .text-responsive_ {
+    font-size: calc(100% + 1vw + 1vh);
+  }
